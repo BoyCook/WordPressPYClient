@@ -9,6 +9,7 @@ setup(
     description="A WordPress client written in Python",
     long_description=readme,
     author="Craig Cook",
+    packages=['wordpress-py-client'],
     url="https://github.com/BoyCook/WordPressPYClient",
     packages=find_packages(exclude=['test'])
 )
