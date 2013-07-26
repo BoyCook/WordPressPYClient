@@ -14,6 +14,5 @@ class WordPressTest(unittest.TestCase):
     def test_get_post(self):
         self.blog.get_post()
 
-
 if __name__ == '__main__':
     unittest.main()
