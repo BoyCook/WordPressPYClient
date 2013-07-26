@@ -25,12 +25,11 @@ class WordPress():
         self._http = httplib2.Http()
 
     def get_posts(self):
-        print 'Getting posts'
         url = self.BASE_URL + '/sites/' + self.site + '/posts'
-        return self._http_get(url)
+        posts = self._http_get(url)
+        return posts["posts"]
 
     def get_post(self, id):
-        print 'Getting post'
         url = self.BASE_URL + '/sites/' + self.site + '/posts/' + id
         return self._http_get(url)
 
