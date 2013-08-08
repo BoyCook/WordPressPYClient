@@ -12,7 +12,7 @@ clean-store:
 	rm -r store || true
 
 test:
-	py.test -x test/*.py
+	py.test -x -s test/*.py
 
 install:
 	python setup.py install

@@ -27,7 +27,7 @@ class WordPress():
     def get_posts(self):
         url = self.BASE_URL + '/sites/' + self.site + '/posts'
         posts = self._http_get(url)
-        return posts["posts"]
+        return posts['posts']
 
     def get_post(self, id):
         url = self.BASE_URL + '/sites/' + self.site + '/posts/' + id

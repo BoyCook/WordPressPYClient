@@ -10,9 +10,8 @@ class WordPressTest(unittest.TestCase):
 
     def test_get_posts(self):
         posts = self.blog.get_posts()
-        for post in posts["posts"]:
-            id = post['ID']
-            print 'ID' + str(id)
+        for post in posts:
+            print str(post['ID']) + ' - ' + str(post['title']) 
 
     def test_get_post(self):
         # TODO - assertions
