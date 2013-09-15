@@ -10,5 +10,17 @@ setup(
     long_description=readme,
     author="Craig Cook",
     url="https://github.com/BoyCook/WordPressPYClient",
-    packages=find_packages(exclude=['test'])
+    packages=find_packages(exclude=["test"]),
+    "install_requires": ["setuptools",
+    "httpexceptor>=1.2.0",
+    # modern Selector requires modern Python, so downgrade for older versions
+    "selector" + ("<0.9.0" if (sys.version_info[0] == 2 and
+            sys.version_info[1] < 6) else ""),
+    "simplejson",
+    "html5lib<0.96",
+    "mimeparse"],
+	"extras_require": {
+    	"testing": 
+    		["pytest", "httplib2", "coverage","pytest-cov", "python-coveralls"]
+		}
 )
