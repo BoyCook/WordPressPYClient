@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 readme = open('README.md').read()
 VERSION = '0.0.1'
 REQUIREMENTS = {
-	'install': ['httplib2', 'json'],
+	'install': ['httplib2', 'simplejson'],
 	'testing': ['pytest', 'coverage', 'pytest-cov', 'python-coveralls'],
 }
 
