@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/BoyCook/WordPressPYClient.png)](https://travis-ci.org/BoyCook/WordPressPYClient)
 [![Coverage Status](https://coveralls.io/repos/BoyCook/WordPressPYClient/badge.png)](https://coveralls.io/r/BoyCook/WordPressPYClient)
+[![Version](https://pypip.in/v/wordpress-py-client/badge.png)](https://crate.io/packages/wordpress-py-client)
+[![Downloads](https://pypip.in/d/wordpress-py-client/badge.png)](https://crate.io/packages/wordpress-py-client)
 
 ## Description
 A WordPress client written in Python
