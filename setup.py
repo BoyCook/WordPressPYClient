@@ -1,13 +1,18 @@
+"""
+Setup file for packaging wordpress-py-client
+"""
+
 from setuptools import setup, find_packages
 
 readme = open('README.md').read()
 VERSION = '0.0.1'
 REQUIREMENTS = {
-	'install': ["httplib2", "json"],
-	'testing': ["pytest", "httplib2", "coverage", "pytest-cov", "python-coveralls"]
+	'install': ['httplib2', 'json'],
+	'testing': ['pytest', 'httplib2', 'coverage', 'pytest-cov', 'python-coveralls'],
 }
 
-setup(
+if __name__ == '__main__':
+	setup(
     version=VERSION,
     name="wordpress-py-client",
     description="A WordPress client written in Python",
