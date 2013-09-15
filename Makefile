@@ -16,6 +16,9 @@ clean-store:
 test:
 	py.test -x -s test
 
+test-cov:
+	py.test --cov-report term-missing --cov test
+
 test-cov-html:
 	py.test --cov-report html --cov test
 
