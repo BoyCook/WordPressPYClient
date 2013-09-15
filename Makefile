@@ -7,12 +7,17 @@ clean:
 	rm -r build || true
 	rm -r *.egg-info || true
 	rm tiddlyweb.log || true
+	rm -r htmlcov || true
+	rm .coverage || true	
 
 clean-store:
 	rm -r store || true
 
 test:
-	py.test -x -s test/*.py
+	py.test -x -s test
+
+test-cov-html:
+	py.test --cov-report html --cov test
 
 install:
 	python setup.py install
