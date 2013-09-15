@@ -18,6 +18,7 @@ if __name__ == '__main__':
 	    description="A WordPress client written in Python",
 	    long_description=readme,
 	    author="Craig Cook",
+	    author_email="theboycook@gmail.com",
 	    url="https://github.com/BoyCook/WordPressPYClient",
 	    packages=find_packages(exclude=["test"]),
 	    install_requires=REQUIREMENTS["install"],
