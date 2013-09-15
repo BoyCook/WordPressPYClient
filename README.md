@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/BoyCook/WordPressPYClient.png)](https://travis-ci.org/BoyCook/WordPressPYClient)
+
 ## Description
 A WordPress client written in Python
 
