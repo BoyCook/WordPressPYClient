@@ -4,7 +4,7 @@ Setup file for packaging wordpress-py-client
 
 from setuptools import setup, find_packages
 
-readme = open('README.md').read()
+readme = open('README.rst').read()
 VERSION = '0.0.1'
 REQUIREMENTS = {
 	'install': ['httplib2', 'simplejson'],

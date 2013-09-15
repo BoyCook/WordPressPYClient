@@ -36,4 +36,4 @@ Building
 * `make install` installs the plugin as a package on your system
 * `make test` runs the tests.
 * `make clean` cleans.
-* `make release` packages and uploads the plugin to [PyPI](http://pypi.python.org/pypi) for distribution.
+* `make release` packages and uploads the plugin to http://pypi.python.org/pypi for distribution.
