@@ -9,7 +9,6 @@ A WordPress client written in Python
 	blog.getPosts();
 	blog.getPost();
 
-
 ## Support
 
 See http://developer.wordpress.com/docs/api
