@@ -17,10 +17,10 @@ test:
 	py.test -x -s test
 
 test-cov:
-	py.test --cov-report term-missing --cov test
+	py.test --cov-report term-missing --cov wordpress test
 
 test-cov-html:
-	py.test --cov-report html --cov test
+	py.test --cov-report html --cov wordpress test
 
 install:
 	python setup.py install
